@@ -2242,8 +2242,8 @@
    "Mappings":{
       "RegionMap":{
          "us-east-1":{
-            "Vault":"ami-0cf1c48744ffdf9db",
-            "Components":"ami-0f70712cd62b428f2"
+            "Vault":"ami-0e9c25c01ecb5339b",
+            "Components":"ami-08628c0ae21dbcff6"
          },
          "us-east-2":{
             "Vault":"ami-0efd82b593f0b4b83",
@@ -2266,8 +2266,8 @@
             "Components":"ami-023b02c9a9ab017f3"
          },
          "eu-west-1":{
-            "Vault":"ami-06fe53288df210711",
-            "Components":"ami-0f83bf6c609d30283"
+            "Vault":"ami-0f014109931bcf119",
+            "Components":"ami-070f8fc9ba6a3fed4"
          },
          "eu-central-1":{
             "Vault":"ami-06920cea77dd0ecc3",

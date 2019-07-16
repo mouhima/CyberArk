@@ -1267,7 +1267,7 @@
    "Mappings":{
       "RegionMap":{
          "us-east-1":{
-            "Vault":"ami-0cf1c48744ffdf9db"
+            "Vault":"ami-0e9c25c01ecb5339b"
          },
          "us-east-2":{
             "Vault":"ami-0efd82b593f0b4b83"
@@ -1285,7 +1285,7 @@
             "Vault":"ami-02082f5c5bde642f0"
          },
          "eu-west-1":{
-            "Vault":"ami-06fe53288df210711"
+            "Vault":"ami-0f014109931bcf119"
          },
          "eu-central-1":{
             "Vault":"ami-06920cea77dd0ecc3"

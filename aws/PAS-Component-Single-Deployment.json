@@ -2318,9 +2318,9 @@
    "Mappings": {
       "RegionMap": {
          "us-east-1": {
-            "CPM": "ami-01f4a2a07b19aa6f0",
-            "PVWA": "ami-05d217d7beae359b9",
-            "PSM": "ami-08f6c84a58951e1cd",
+            "CPM": "ami-0c2f837ef17d25941",
+            "PVWA": "ami-03db3d09568cb0f23",
+            "PSM": "ami-072f43290ea897905",
             "PSMP": "ami-0fb8ac4ef13225047"
          },
          "us-east-2":{
@@ -2355,8 +2355,8 @@
          },
          "eu-west-1": {
             "CPM": "ami-06b193ca65a341cc7",
-            "PVWA": "ami-0ccdc1e458ce0a0e3",
-            "PSM": "ami-0de6e5f2676414c57",
+            "PVWA": "ami-055f8c224aba0cc00",
+            "PSM": "ami-02ad810585f35c45c",
             "PSMP": "ami-0de091c7e47fb5123"
          },
          "eu-central-1": {

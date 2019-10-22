@@ -1182,7 +1182,7 @@
    "Mappings":{
       "RegionMap":{
          "us-east-1":{
-            "Vault":"ami-0d6b00444f4d52b5b"
+            "Vault":"ami-068097a9c45f04451"
          },
          "us-east-2":{
             "Vault":"ami-08ef76793347fb10b"

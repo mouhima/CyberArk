@@ -1267,13 +1267,13 @@
    "Mappings":{
       "RegionMap":{
          "us-east-1":{
-            "Vault":"ami-04b243626ed4a712a"
+            "Vault":"ami-068097a9c45f04451"
          },
          "us-east-2":{
             "Vault":"ami-0be35e583c3db4e28"
          },
          "eu-west-2":{
-            "Vault":"ami-0bb5c251964d9d0c7"
+            "Vault":"ami-029f4e79bf58ed977"
          },
          "us-west-1":{
             "Vault":"ami-0c11bb9ebaff37db7"

@@ -2242,7 +2242,7 @@
    "Mappings":{
       "RegionMap":{
          "us-east-1":{
-            "Vault":"ami-04b243626ed4a712a",
+            "Vault":"ami-068097a9c45f04451",
             "Components":"ami-0aeeceedcc474136c"
          },
          "us-east-2":{
@@ -2250,7 +2250,7 @@
             "Components":"ami-0b75358451218acab"
          },
          "eu-west-2":{
-            "Vault":"ami-0bb5c251964d9d0c7",
+            "Vault":"ami-029f4e79bf58ed977",
             "Components":"ami-0f0a41c32d8b04a4d"
          },
          "us-west-1":{

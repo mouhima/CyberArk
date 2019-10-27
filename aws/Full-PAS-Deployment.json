@@ -3345,7 +3345,7 @@
    "Mappings": {
       "RegionMap": {
          "us-east-1": {
-            "Vault": "ami-04b243626ed4a712a",
+            "Vault": "ami-068097a9c45f04451",
             "CPM": "ami-04f7a7fcd53602ce5",
             "PVWA": "ami-0cf8634480dda1144",
             "PSM": "ami-08bcf2e3bffefc66a",
@@ -3359,7 +3359,7 @@
             "PSMP":"ami-0e07cb60880991cd3"
          },
          "eu-west-2": {
-            "Vault": "ami-0bb5c251964d9d0c7",
+            "Vault": "ami-029f4e79bf58ed977",
             "CPM": "ami-004a680e7fdf1c154",
             "PVWA": "ami-092a460a94ef64add",
             "PSM": "ami-0805cd6834e34aa3a",

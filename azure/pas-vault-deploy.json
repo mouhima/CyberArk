@@ -98,10 +98,16 @@
          }
       },
       "SubnetID": {
-        "value": "dev01-subnet"
+      		"type":"String",
+	      "metadata":{
+            "description":"Enter Subnet ID Like:/subscriptions/{Subscription ID}/resourceGroups/MyResourceGroup/providers/Microsoft.Network/virtualNetworks/MyNet/subnets/MySubnet"
+         }
         },
-		"SubnetDRID": {
-        "value": "dev01-subnet"
+	"SubnetDRID": {
+        	"type":"String",
+		"metadata":{
+            "description":"Enter DR Subnet ID Like:/subscriptions/{Subscription ID}/resourceGroups/MyResourceGroup/providers/Microsoft.Network/virtualNetworks/MyNet/subnets/MySubnet"
+         }
         },
       "Vault AvailablitySet Name":{
          "type":"String",

@@ -97,6 +97,18 @@
             "description":"Enter Vault Image ID."
          }
       },
+      "VnetName":{
+         "type":"String",
+         "metadata":{
+            "description":"Enter Vnet Name."
+         }
+      },
+      "SubnetName":{
+         "type":"String",
+         "metadata":{
+            "description":"Enter Subnet Name."
+         }
+      },
       "Vault AvailablitySet Name":{
          "type":"String",
          "metadata":{
@@ -105,10 +117,10 @@
       }
    },
    "variables":{
-      "vnetIdVault":"[resourceId('Microsoft.Network/virtualNetworks', 'Vault-Vnet')]",
-      "vnetIdVaultDR":"[resourceId('Microsoft.Network/virtualNetworks', 'Vault-DR-Vnet')]",
-      "subnetRefVault":"[concat(variables('vnetIdVault'), '/subnets/','Vault-Subnet')]",
-      "subnetRefVaultDR":"[concat(variables('vnetIdVaultDR'), '/subnets/','Vault-DR-Subnet')]",
+      "vnetIdVault":"[resourceId('Microsoft.Network/virtualNetworks', [toLower(concat(parameters('VnetName')))])]",
+      "vnetIdVaultDR":"[resourceId('Microsoft.Network/virtualNetworks', [toLower(concat(parameters('VnetName')))])]",
+      "subnetRefVault":"[concat(variables('vnetIdVault'), '/subnets/',[toLower(concat(parameters('SubnetName')))])]",
+      "subnetRefVaultDR":"[concat(variables('vnetIdVaultDR'), '/subnets/',[toLower(concat(parameters('SubnetName')))])]",
       "networkInterfaceName":"[toLower(concat(parameters('Vault VM Host Name'), '-', uniqueString(resourceGroup().id)))]",
       "availabilitySetPlatformFaultDomainCount":3,
       "availabilitySetPlatformUpdateDomainCount":5,

@@ -130,9 +130,9 @@
    },
    "variables":{
 	   
-      "vnetIdVault":"[resourceId(parameters('networkResourceGroupName'), 'Microsoft.Network/virtualNetworks', (parameters('vNetname')))]", 
-      "subnetRefVault":"[concat(variables('vnetIdVault'), '/subnets/',(parameters('SubnetName')))]",
-      "subnetRefVaultDR":"[concat(variables('vnetIdVault'), '/subnets/',(parameters('SubnetNameDR')))]",   
+      "vnetIdVault":"[resourceId(parameters('networkResourceGroupName'), 'Microsoft.Network/virtualNetworks', [parameters('vNetname')])]", 
+      "subnetRefVault":"[concat(variables('vnetIdVault'), '/subnets/',[parameters('SubnetName')])]",
+      "subnetRefVaultDR":"[concat(variables('vnetIdVault'), '/subnets/',[parameters('SubnetNameDR')])]",   
 
       "networkInterfaceName":"[toLower(concat(parameters('Vault VM Host Name'), '-', uniqueString(resourceGroup().id)))]",
       "availabilitySetPlatformFaultDomainCount":3,
